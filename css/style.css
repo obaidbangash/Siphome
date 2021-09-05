@@ -1,0 +1,1726 @@
+    /* Global Css starts  here */
+    
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Inter';
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+        object-fit: cover;
+        box-sizing: border-box;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    span,
+    a,
+    label,
+    ul,
+    ol,
+    p,
+    nav {
+        margin: 0;
+        padding: 0;
+    }
+    
+    a,
+    a:hover {
+        display: inline-block;
+        text-decoration: none;
+    }
+    
+    ul,
+    li {
+        list-style: none;
+    }
+    
+    .container {
+        max-width: 1199px;
+        margin: 0 auto;
+    }
+    
+    .h3-properties {
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.56;
+        letter-spacing: normal;
+        color: #606b86;
+    }
+    
+    .h2-properties {
+        font-size: 42px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #262b36;
+    }
+    
+    .p-properties {
+        font-size: 20px;
+        font-weight: normal;
+        font-stretch: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        color: #262b36;
+    }
+    
+    .btn-properties {
+        width: 148px;
+        height: 48px;
+        padding: 14.5px 28px;
+        border-radius: 5px;
+        font-size: 15px;
+        font-weight: bold;
+        font-stretch: normal;
+        line-height: normal;
+        color: #ffffff;
+    }
+    
+    .network-tab {
+        max-width: 360px;
+        margin: 0 10px 20px;
+        padding: 9px 15px 9px 25px;
+        border-radius: 16px;
+        box-shadow: 4px 4px 24px 0 rgba(0, 0, 0, 0.08);
+        background-color: #ffffff;
+    }
+    
+    .tab-text {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.78;
+        letter-spacing: normal;
+        color: #262b36;
+    }
+    
+    .h4-properties {
+        font-size: 15px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.6;
+        letter-spacing: normal;
+        color: #262b36;
+    }
+    
+    h5 {
+        font-size: 15px;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 10px;
+        text-align: center;
+        color: #2053d1;
+    }
+    /* Globel Css Ends here */
+    /* fonts Here */
+    
+    @font-face {
+        font-family: 'Inter';
+        src: url('../fonts/Inter-Black.woff2') format('woff2'), url('../fonts/Inter-Black.woff') format('woff');
+        font-weight: 900;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Inter';
+        src: url('../fonts/Inter-Bold.woff2') format('woff2'), url('../fonts/Inter-Bold.woff') format('woff');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Inter';
+        src: url('../fonts/Inter-ExtraBold.woff2') format('woff2'), url('../fonts/Inter-ExtraBold.woff') format('woff');
+        font-weight: 800;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Inter';
+        src: url('../fonts/Inter-ExtraLight.woff2') format('woff2'), url('../fonts/Inter-ExtraLight.woff') format('woff');
+        font-weight: 200;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Inter';
+        src: url('../fonts/Inter-Medium.woff2') format('woff2'), url('../fonts/Inter-Medium.woff') format('woff');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Inter';
+        src: url('../fonts/Inter-Regular.woff2') format('woff2'), url('../fonts/Inter-Regular.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Inter';
+        src: url('../fonts/Inter-SemiBold.woff2') format('woff2'), url('../fonts/Inter-SemiBold.woff') format('woff');
+        font-weight: 600;
+        font-style: normal;
+        font-display: swap;
+    }
+    /* fonts ends here */
+    /* Header css starts here */
+    
+    header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: transparent;
+        z-index: 1;
+        padding: 36px 0;
+    }
+    
+    header .navbar {
+        padding: 0;
+    }
+    
+    header .logo {
+        width: 148px;
+        height: 42px;
+        margin: 0 116px 0 0;
+        object-fit: contain;
+    }
+    
+    .navbar-light .navbar-nav .nav-link {
+        margin: 0 60px 0 0;
+        font-size: 15px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #fbfcff;
+        opacity: 0.4;
+    }
+    
+    header .navbar-light .navbar-nav .nav-link:hover {
+        color: #ffffff;
+        opacity: 1;
+    }
+    
+    body {
+        overflow-x: hidden;
+    }
+    
+    header .log-in li:first-child {
+        margin-right: 9px;
+    }
+    
+    header .log-in a {
+        font-family: Inter;
+        font-size: 13px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #262b36;
+    }
+    
+    header .log-in a:hover {
+        color: #3acf6e;
+    }
+    
+    #nav-icon1 {
+        width: 35px;
+        height: 35px;
+        position: relative;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .5s ease-in-out;
+        -moz-transition: .5s ease-in-out;
+        -o-transition: .5s ease-in-out;
+        transition: .5s ease-in-out;
+        cursor: pointer;
+        border: 0;
+    }
+    
+    #nav-icon1:focus {
+        outline: none;
+    }
+    
+    #nav-icon1 span {
+        display: block;
+        position: absolute;
+        height: 4px;
+        width: 100%;
+        background: #ffffff;
+        border-radius: 9px;
+        opacity: 1;
+        left: 0;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .25s ease-in-out;
+        -moz-transition: .25s ease-in-out;
+        -o-transition: .25s ease-in-out;
+        transition: .25s ease-in-out;
+    }
+    
+    #nav-icon1 span:nth-child(1) {
+        top: 0px;
+    }
+    
+    #nav-icon1 span:nth-child(2) {
+        top: 10px;
+    }
+    
+    #nav-icon1 span:nth-child(3) {
+        top: 20px;
+    }
+    
+    #nav-icon1.open span:nth-child(1) {
+        top: 18px;
+        -webkit-transform: rotate(135deg);
+        -moz-transform: rotate(135deg);
+        -o-transform: rotate(135deg);
+        transform: rotate(135deg);
+    }
+    
+    #nav-icon1.open span:nth-child(2) {
+        opacity: 0;
+        left: -60px;
+    }
+    
+    #nav-icon1.open span:nth-child(3) {
+        top: 18px;
+        -webkit-transform: rotate(-135deg);
+        -moz-transform: rotate(-135deg);
+        -o-transform: rotate(-135deg);
+        transform: rotate(-135deg);
+    }
+    /* Header css Ends here */
+    /* Banner CSS Starts here */
+    
+    .banner {
+        position: relative;
+    }
+    
+    .banner .banner-bg {
+        max-width: 1100px;
+        width: 100%;
+        min-height: 840px;
+        margin: 0 340px 0 0;
+        border-bottom-right-radius: 600px;
+        background-color: #0548c8;
+    }
+    
+    .banner .banner-bg img {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        opacity: 0.6;
+        filter: invert(1);
+    }
+    
+    .banner .banner-content {
+        position: absolute;
+        top: 140px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+    }
+    
+    .banner .banner-content h1 {
+        max-width: 600px;
+        font-size: 55px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.35;
+        letter-spacing: normal;
+        color: #ffffff;
+        padding-top: 18px;
+    }
+    
+    .banner .banner-content h1 span {
+        color: #3acf6e;
+    }
+    
+    .banner .banner-wrapper {
+        position: relative;
+    }
+    
+    .banner .banner-img {
+        max-width: 440px;
+        height: 540px;
+        text-align: end;
+    }
+    
+    .banner .banner-img img {
+        width: 100%;
+        object-fit: contain;
+    }
+    
+    .banner .banner-left {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    
+    .banner .p-properties {
+        color: #ffffff;
+        max-width: 600px;
+        margin: 36px 0 64px 0;
+    }
+    
+    .banner .btn-properties {
+        border-radius: 5px;
+        border: solid 1px #ffffff;
+    }
+    
+    .banner .btn-properties:hover {
+        background-color: #3acf6e;
+        color: #ffffff;
+        transform: scale(1.1);
+        transition: all ease-in-out 500ms;
+    }
+    
+    .banner .btn-properties:first-child {
+        margin-right: 20px;
+    }
+    
+    .ml2 .letter {
+        display: inline-block;
+        line-height: 1em;
+        color: #fff;
+    }
+    /* Banner CSS Ends here */
+    /* Content Starts here */
+    /* section Meet Spihome Starts here */
+    
+    .content {
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) -10%, #ecf0f7);
+    }
+    
+    .meet-siphome {
+        padding: 180px 0 67px;
+    }
+    
+    .meet-siphome .p-properties {
+        max-width: 960px;
+        font-weight: 500;
+        margin-bottom: 51px;
+        color: #606b86;
+    }
+    
+    .meet-siphome .meet-bg {
+        background-image: url(../images/meet-bg.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 36px 0px 40px 61px;
+        background-size: 100%;
+    }
+    
+    .meet-siphome .meet-img {
+        padding: 36px 0px 40px 0px;
+        position: relative;
+    }
+    
+    .meet-siphome .meet-img img {
+        z-index: 2;
+        position: relative;
+    }
+    
+    .meet-siphome .meet-img::after {
+        content: '';
+        width: 147px;
+        height: 115px;
+        background-color: #997659;
+        position: absolute;
+        top: 50%;
+        left: 110px;
+        transform: translateX(-50%);
+        border-radius: 50px;
+    }
+    
+    .meet-siphome .meet-content h6 {
+        margin-bottom: 16px;
+        font-size: 15px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 10px;
+        color: #2053d1;
+    }
+    
+    .meet-siphome .meet-content h2 {
+        margin-bottom: 24px;
+        text-transform: capitalize;
+    }
+    
+    .meet-siphome .meet-content .h3-properties.main-para {
+        max-width: 600px;
+        margin-bottom: 51px;
+    }
+    
+    .meet-siphome .feature-card {
+        padding: 16px 0;
+        margin-bottom: 36px;
+    }
+    
+    .meet-siphome .feature-card .p-properties {
+        width: 300px;
+        margin-bottom: 0.5px;
+    }
+    
+    .meet-siphome .feature-card .feature-img {
+        width: 55px;
+        height: 55px;
+        margin-bottom: 30px;
+        padding: 10px 9px 9px 10px;
+        border-radius: 50%;
+        background-color: #fcf3f4;
+    }
+    
+    .meet-siphome .feature-card .card-content {
+        min-height: 116px;
+    }
+    
+    .meet-siphome .feature-card .feature-img.smart {
+        background-color: #f4f7fd;
+    }
+    
+    .meet-siphome .feature-card .feature-img.disaster {
+        background-color: #e9faf0;
+    }
+    
+    .meet-siphome .feature-card .feature-img.service {
+        background-color: #fdf6e4;
+    }
+    
+    .meet-siphome .feature-card .feature-img img {
+        width: 100%;
+    }
+    
+    .meet-siphome .feature-card .h3-properties {
+        font-weight: 600;
+        color: #262b36;
+        margin-bottom: 16px;
+    }
+    
+    .meet-siphome .home {
+        max-width: 200px;
+        padding: 12px 10px 12px 14px;
+        box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.08);
+        background-color: #ffffff;
+        border-radius: 5px;
+    }
+    
+    .meet-siphome .home .h4-properties {
+        font-size: 13px;
+    }
+    
+    .meet-siphome .meet-bg {
+        position: relative;
+    }
+    
+    .meet-siphome .hot-water {
+        position: absolute;
+        right: -19px;
+        top: 93px;
+        z-index: 12;
+    }
+    
+    .meet-siphome .hot-water::after {
+        content: '';
+        position: absolute;
+        bottom: -15px;
+        left: 20px;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-top: 30px solid #fff;
+    }
+    
+    .meet-siphome .leaking {
+        position: absolute;
+        left: -43px;
+        top: 132px;
+        z-index: 12;
+    }
+    
+    .meet-siphome .leaking::after {
+        content: '';
+        position: absolute;
+        bottom: -20px;
+        right: 20px;
+        width: 0;
+        height: 0;
+        transform: rotate(-30deg);
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-top: 30px solid #fff;
+    }
+    
+    .meet-siphome .issues {
+        position: absolute;
+        left: 17px;
+        z-index: 12;
+        bottom: 126px;
+    }
+    
+    .meet-siphome .issues::after {
+        content: '';
+        position: absolute;
+        top: -20px;
+        right: 20px;
+        width: 0;
+        height: 0;
+        border-bottom: 25px solid #fff;
+        border-left: 25px solid transparent;
+    }
+    
+    .meet-siphome .alert {
+        position: absolute;
+        right: -9px;
+        bottom: -38px;
+        z-index: 12;
+    }
+    
+    .meet-siphome .alert::after {
+        content: '';
+        position: absolute;
+        top: -20px;
+        left: 20px;
+        width: 0;
+        height: 0;
+        border-bottom: 25px solid #fff;
+        border-right: 25px solid transparent;
+    }
+    /* section Meet Spihome Starts here */
+    /* section updates starts here */
+    
+    .update {
+        padding: 160px 0;
+    }
+    
+    .update .monitor-content {
+        margin: 0 0 1px;
+        padding: 104px 50px 181px 169px;
+        background-color: #0548c8;
+        border-bottom-left-radius: 311px;
+    }
+    
+    .update .monitor {
+        max-width: 424px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        color: #fff;
+        padding: 16px;
+    }
+    
+    .update .monitor-icon {
+        width: 60px;
+        height: 60px;
+        background-color: #ffffff;
+        border-radius: 50%;
+        padding: 12px;
+        margin-right: 31px;
+    }
+    
+    .update .monitor-text .h3-properties {
+        color: #fff;
+        margin-bottom: 13px;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+    
+    .update .monitor-text .h4-properties {
+        color: #fff;
+        line-height: 1.6;
+    }
+    
+    .update .upgrade h5 {
+        padding-left: 120px;
+        text-align: left;
+        margin-bottom: 16px;
+    }
+    
+    .update .upgrade .h2-properties {
+        max-width: 329px;
+        margin-left: 120px;
+        margin-bottom: 62px;
+        text-align: left;
+        line-height: 1.52;
+    }
+    
+    .update .upgrade-images {
+        position: relative;
+    }
+    
+    .update .upgrade-images .upgrade-img1 {
+        max-width: 340px;
+        margin-bottom: 36px;
+    }
+    
+    .update .upgrade-images .upgrade-img2 {
+        max-width: 440px;
+        z-index: 10;
+        position: relative;
+    }
+    
+    .update .upgrade-images .upgrade-img3 {
+        max-width: 374px;
+        position: absolute;
+        top: 60px;
+        left: 376px;
+        z-index: 1;
+    }
+    /* section updates starts here */
+    /* section services starts here */
+    
+    .services {
+        padding: 164px 0 108px;
+    }
+    
+    .services .service-tab {
+        padding-top: 128px;
+    }
+    
+    .services h5 {
+        font-size: 15px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 10px;
+        text-align: center;
+        color: #2053d1;
+    }
+    
+    .services .h2-properties {
+        margin: 16px 0 30px;
+    }
+    
+    .services .house-demo {
+        width: 599px;
+        height: 599px;
+        margin: 84px auto 0;
+        background-color: rgba(255, 255, 255, 0.4);
+        border: solid 1px #1ece7a;
+        border-radius: 50%;
+        position: relative;
+    }
+    
+    .services .house-demo .house-layer {
+        width: 399px;
+        height: 399px;
+        margin: 0 auto;
+        border: solid 1px #1ece7a;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.4);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .services .demo {
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+        color: #3bcf6e;
+        padding: 11px 18px 11px 19px;
+        border-radius: 20.5px;
+        border: solid 1px #1ece7a;
+        background-color: #ffffff;
+        display: inline-block;
+        z-index: 9;
+    }
+    
+    .services .sewer-line {
+        position: absolute;
+        top: 28px;
+        left: 58px;
+    }
+    
+    .services .sump-pump {
+        position: absolute;
+        top: 85px;
+        right: 0;
+    }
+    
+    .services .appliances {
+        position: absolute;
+        bottom: 5px;
+        left: 134px;
+    }
+    
+    .services .hot-water {
+        position: absolute;
+        top: 50%;
+        left: -58px;
+    }
+    
+    .services .pool {
+        position: absolute;
+        bottom: 171px;
+        right: -25px;
+    }
+    
+    .services .dehumidifier {
+        position: absolute;
+        top: 2px;
+        left: 58px;
+    }
+    
+    .services .hvac {
+        position: absolute;
+        top: 50%;
+        right: -58px;
+    }
+    
+    .services .tank {
+        position: absolute;
+        bottom: 9px;
+        right: 48px;
+    }
+    
+    .services .solar {
+        position: absolute;
+        bottom: 82px;
+        left: -20px;
+    }
+    
+    .services .roof {
+        position: absolute;
+        top: 11px;
+        right: 0px;
+    }
+    
+    .services .house-demo .house-layer3 {
+        width: 299px;
+        height: 299px;
+        margin: 0 auto;
+        border: solid 1px #1ece7a;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .services .house-demo img {
+        width: 320px;
+        height: 299px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        object-fit: contain;
+        z-index: 1;
+    }
+    
+    .services .network-tab {
+        align-items: center;
+        cursor: pointer;
+    }
+    
+    .services .network-tab:hover {
+        transform: scale(1.1);
+        transition: all ease 500ms;
+    }
+    
+    .services .network-tab .tab-text {
+        margin-left: 33px;
+    }
+    
+    .services .network-tab .tab-img {
+        display: inline-block;
+        width: 55px;
+        min-width: 55px;
+        height: 55px;
+        background-color: #fcf3f4;
+        border-radius: 50%;
+        text-align: center;
+        position: relative;
+    }
+    
+    .services .network-tab .tab-img img {
+        width: 36px;
+        height: 36px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    /* section services ends here */
+    /* section textimonial stars here */
+    
+    .testimonial {
+        padding: 108px 0 230px;
+    }
+    
+    .testimonial h2 {
+        max-width: 552px;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 1.52;
+        margin-bottom: 52px;
+    }
+    
+    .testimonial .slider-content {
+        max-width: 540px;
+        padding: 30px 42px 39px 30px;
+        border-radius: 24px;
+        background-color: #ffffff;
+        position: relative;
+        margin: 100px 25px 0;
+    }
+    
+    .testimonial .user-img {
+        position: absolute;
+        top: -46px;
+        right: -63px;
+        border-radius: 50%;
+        max-width: 148px;
+        height: 148px;
+    }
+    
+    .testimonial .p-properties {
+        max-width: 400px;
+        margin-bottom: 42px;
+    }
+    
+    .testimonial .h3-properties {
+        font-weight: bold;
+        margin-bottom: 8px;
+        color: #262b36;
+    }
+    
+    .testimonial .h4-properties {
+        color: #606b86;
+    }
+    
+    .testimonial .quote {
+        font-size: 75px;
+        opacity: 0.1;
+        color: #606c84;
+    }
+    
+    .owl-theme .owl-nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .owl-theme .owl-nav .owl-next {
+        right: 0;
+        top: 50%;
+        position: absolute;
+    }
+    
+    .owl-theme .owl-nav .owl-prev {
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        position: absolute;
+    }
+    
+    .owl-theme .owl-nav [class*=owl-]:hover {
+        outline: transparent;
+        color: #fff;
+    }
+    
+    .owl-carousel .owl-nav button.owl-next,
+    .owl-carousel .owl-nav button.owl-prev {
+        width: 42px;
+        height: 42px;
+        opacity: 0.4;
+        background-color: #262b35;
+        border-radius: 50%;
+    }
+    
+    .owl-carousel .owl-nav button.owl-prev span::after {
+        content: '\f060';
+        font-family: 'FontAwesome';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+        color: #ffffff;
+    }
+    
+    .owl-carousel .owl-nav button.owl-next span::after {
+        content: '\f061';
+        font-family: 'FontAwesome';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+        color: #ffffff;
+    }
+    
+    .owl-theme .owl-dots {
+        margin-top: 64px;
+        border: none;
+        outline: none;
+    }
+    
+    .owl-theme .owl-dots .owl-dot.active span,
+    .owl-theme .owl-dots .owl-dot:hover span {
+        background-color: #0548c8;
+        outline: none;
+        border: none;
+    }
+    
+    .owl-theme .owl-dots .owl-dot:focus {
+        outline: none;
+        border: none;
+    }
+    /* section textimonial ends here */
+    /* section Contact starts here  */
+    
+    .contact {
+        padding: 178px 0 165px;
+    }
+    
+    .contact h5 {
+        margin-bottom: 16px;
+        font-size: 15px;
+        font-weight: bold;
+        letter-spacing: 10px;
+        color: #2053d1;
+    }
+    
+    .contact .h2-properties {
+        line-height: 1.52;
+        max-width: 420px;
+        margin-bottom: 64px;
+    }
+    
+    .contact .contact-img {
+        max-width: 412px;
+        height: 362px;
+    }
+    
+    .contact .contact-img img {
+        width: 100%;
+    }
+    
+    .contact .contact-form label {
+        font-size: 15px;
+        line-height: 1.6;
+        letter-spacing: normal;
+        color: #262b36;
+        margin-bottom: 12px;
+    }
+    
+    .contact .contact-form {
+        max-width: 448px;
+    }
+    
+    .contact .contact-form .form-group {
+        margin-bottom: 0;
+    }
+    
+    .contact .contact-form input {
+        max-width: 448px;
+        height: 48px;
+        margin-bottom: 12px;
+        padding: 12px 23px;
+        border-radius: 3px;
+        border: solid 1px #cccccc;
+        background-color: #ffffff;
+    }
+    
+    .contact .contact-form select {
+        max-width: 448px;
+        height: 48px;
+        margin-bottom: 12px;
+        padding: 12px 23px;
+        border-radius: 3px;
+        border: solid 1px #cccccc;
+        background-color: #ffffff;
+        color: #cccccc;
+        font-size: 18px;
+    }
+    
+    .contact .contact-form select option {
+        max-width: 100%;
+    }
+    
+    .contact .contact-form input::placeholder {
+        font-size: 18px;
+        line-height: 1.33;
+        color: #cccccc;
+    }
+    
+    .contact .contact-form textarea {
+        max-width: 100%;
+        width: 100%;
+        height: 120px;
+        padding: 12px 23px;
+        border-radius: 3px;
+        border: solid 1px #cccccc;
+        background-color: #ffffff;
+        font-size: 18px;
+        line-height: 1.33;
+        letter-spacing: normal;
+        color: #cccccc;
+        resize: none;
+        text-align: left;
+    }
+    
+    .contact .contact-form a {
+        background-color: #3acf6e;
+        margin-top: 36px;
+    }
+    
+    .contact .contact-form .btn-properties:hover {
+        background-color: #fff;
+        border: 1px solid #1ece7a;
+        color: #1ece7a;
+        transform: scale(1.1);
+        transition: all ease-in-out 500ms;
+    }
+    /* section Contact ends here  */
+    /* Content Ends here */
+    /* footer starts here */
+    
+    footer {
+        padding: 132px 0 40px;
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) -10%, #ecf0f7);
+    }
+    
+    footer .footer-logo {
+        width: 157px;
+        height: 42px;
+        margin-bottom: 40px;
+    }
+    
+    footer .p-properties {
+        font-weight: bold;
+        margin-bottom: 16px;
+    }
+    
+    footer p {
+        font-weight: normal !important;
+    }
+    
+    footer .footer-list a {
+        font-size: 18px;
+        padding: 16px 0 0;
+        color: #606b86;
+    }
+    
+    footer .footer-list a:hover {
+        color: #2053d1;
+    }
+    
+    footer .footer-bottom .p-properties {
+        color: #262b36;
+        font-weight: normal;
+        margin-bottom: 0;
+        text-transform: capitalize;
+    }
+    
+    footer .p-properties {
+        text-transform: capitalize;
+    }
+    
+    footer .p-properties.number {
+        margin-bottom: 0;
+    }
+    
+    footer .mail-to {
+        font-size: 18px;
+        color: #262b36;
+    }
+    
+    footer .mail-to:hover {
+        color: #2053d1;
+    }
+    
+    .footer-main {
+        margin-bottom: 145px;
+    }
+    
+    footer .social-icon {
+        margin-right: 30px;
+    }
+    /* footer ends here */
+    /*-------------Media Querries-----------------*/
+    
+    @media only screen and (max-width:1366px) {
+        .banner .banner-bg {
+            max-width: 80%;
+        }
+    }
+    /*------------- 1275px -----------------*/
+    
+    @media only screen and (max-width:1275px) {
+        .meet-siphome .leaking {
+            left: 0;
+        }
+        .meet-siphome .home .h4-properties {
+            font-size: 11px;
+        }
+        .meet-siphome .home {
+            max-width: 167px;
+            padding: 9px;
+        }
+        .meet-siphome .hot-water {
+            position: absolute;
+            right: calc(100% - 377px);
+            top: 74px;
+        }
+        .meet-siphome .alert {
+            bottom: 0;
+        }
+    }
+    /*------------- 1199px -----------------*/
+    
+    @media only screen and (max-width:1199px) {
+        .services .network-tab {
+            margin: 0 10px 20px;
+        }
+        .services .network-tab .tab-text {
+            margin-left: 15px;
+        }
+        .services .network-tab .tab-img {
+            width: 50px;
+            min-width: 50px;
+            height: 50px;
+        }
+        .tab-text {
+            font-size: 16px;
+        }
+        .update .upgrade-images .upgrade-img1 {
+            position: relative;
+            z-index: 11;
+        }
+        .update .upgrade-images .upgrade-img3 {
+            left: 200px;
+            z-index: 0;
+        }
+        .update .monitor-content {
+            padding: 80px 20px 120px 50px;
+        }
+        header .logo {
+            margin: 0 60px 0 0;
+        }
+        .navbar-light .navbar-nav .nav-link {
+            margin: 0 40px 0 0;
+        }
+        .banner .banner-content h1 {
+            font-size: 45px;
+        }
+        .banner .banner-left {
+            position: absolute;
+            right: 0;
+            bottom: 200px;
+            overflow: hidden;
+            max-width: 300px;
+        }
+        .banner .banner-left img {
+            width: 100%;
+        }
+        .meet-siphome .p-properties {
+            max-width: 90%;
+        }
+    }
+    /*------------- 1024px -----------------*/
+    
+    @media only screen and (max-width:1024px) {
+        .meet-siphome {
+            padding: 80px 0 67px;
+        }
+        .update {
+            padding: 80px 0;
+        }
+        .services {
+            padding: 84px 0;
+        }
+        .testimonial {
+            padding: 80px 0;
+        }
+        .contact {
+            padding: 80px 0;
+        }
+        .footer-main {
+            margin-bottom: 60px;
+        }
+        .update .upgrade h5 {
+            padding-left: 15px;
+        }
+        .update .upgrade .h2-properties {
+            margin-left: 15px;
+        }
+    }
+    /*------------- 991px -----------------*/
+    
+    @media only screen and (max-width:991px) {
+        .navbar-light .navbar-nav .nav-link {
+            margin: 0 15px 0 0;
+        }
+        header {
+            padding: 25px 0;
+        }
+        header .logo {
+            margin: 0 35px 0 0;
+        }
+        header .log-in a {
+            padding: 0;
+        }
+        .banner .banner-bg {
+            margin: 0;
+            border-bottom-right-radius: 19%;
+            z-index: -3;
+            position: relative;
+        }
+        .banner .banner-img {
+            height: auto;
+        }
+        .meet-siphome .meet-img img {
+            max-width: 230px;
+        }
+        .meet-siphome .leaking {
+            top: 104px;
+        }
+        .contact .h2-properties {
+            font-size: 34px;
+        }
+        .meet-siphome .meet-bg {
+            margin-bottom: 50px;
+            background-size: 50%;
+            text-align: center;
+        }
+        .meet-siphome .hot-water {
+            right: calc(50% - 195px);
+            top: 78px;
+        }
+        .meet-siphome .leaking {
+            left: calc(50% - 189px);
+            top: 113px;
+        }
+        .meet-siphome .meet-img::after {
+            top: 141px;
+            left: calc(50% - 27px);
+        }
+        .meet-siphome .issues {
+            left: calc(50% - 146px);
+            bottom: 93px;
+        }
+        .meet-siphome .alert {
+            right: calc(50% - 190px);
+            bottom: -27px;
+        }
+    }
+    /*------------- 767px -----------------*/
+    
+    @media only screen and (max-width:767px) {
+        /* header .mobile-menu::after {
+            content: '';
+            position: absolute;
+            left: 100%;
+            width: 100%;
+            top: 0;
+            min-height: 100vh;
+            min-width: 100vh;
+            height: 100%;
+            z-index: 1;
+            background-color: rgba(0, 0, 0, 0.5);
+        } */
+        header #nav-icon1 {
+            z-index: 11111;
+            margin-right: 20px;
+        }
+        .banner .banner-bg {
+            max-width: 100%;
+            width: 100%;
+            height: 300px;
+            border-radius: 0;
+            min-height: 1000px;
+        }
+        .banner .banner-img {
+            max-width: 100%;
+            height: 350px;
+            margin-top: 50px;
+        }
+        .banner .banner-img img {
+            height: 100%;
+        }
+        .banner .banner-left {
+            bottom: 0px;
+        }
+        .banner .banner-content h1 {
+            line-height: 1.5;
+            max-width: 90%;
+        }
+        .update .upgrade-images .upgrade-img3 {
+            right: 0;
+            z-index: 0;
+        }
+        .h2-properties {
+            font-size: 35px;
+        }
+        .services .house-demo {
+            max-width: 499px;
+            max-height: 499px;
+        }
+        .services .demo {
+            font-size: 10px;
+            padding: 7px;
+        }
+        .services .house-demo img {
+            max-width: 240px;
+            height: 240px;
+        }
+        .services .house-demo .house-layer {
+            max-width: 320px;
+            height: 320px;
+        }
+        .services .house-demo .house-layer3 {
+            width: 219px;
+            height: 219px;
+        }
+        .contact .contact-img {
+            margin: 0 auto 30px;
+        }
+        .contact .h2-properties {
+            max-width: 90%;
+        }
+        .contact .contact-form input {
+            max-width: 100%;
+            width: 100%;
+        }
+        .contact .contact-form {
+            max-width: 100%;
+        }
+        .contact .contact-form select {
+            max-width: 100%;
+        }
+        .testimonial .slider-content {
+            max-width: 540px;
+            padding: 39px 10px;
+        }
+        footer {
+            padding: 70px 0 40px;
+        }
+        .testimonial .p-properties {
+            font-size: 16px;
+        }
+        .testimonial .quote {
+            font-size: 58px;
+        }
+        .h3-properties {
+            font-size: 14px;
+        }
+        .testimonial .user-img {
+            max-width: 125px;
+            right: -45px;
+        }
+        .testimonial .slider-content {
+            margin: 40px 22px 0;
+        }
+        .owl-theme .owl-dots {
+            margin-top: 30px;
+        }
+        .owl-theme .owl-nav .owl-prev {
+            left: -16px;
+            top: 40%;
+        }
+        .owl-theme .owl-nav .owl-next {
+            right: -16px;
+            top: 40%;
+        }
+        .update .upgrade-images .upgrade-img3 {
+            left: unset;
+        }
+        .update .upgrade-images .upgrade-img3 img {
+            width: 100%;
+        }
+        header .log-in a {
+            color: #fff;
+            text-align: left;
+            padding-left: 20px;
+            padding-top: 15px;
+        }
+        header .log-in a:hover {
+            color: #2053d1;
+        }
+        header .nav-btn {
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: #fff;
+            background-color: #fff;
+            padding: 3px 5px;
+        }
+        header .mobile-menu {
+            position: fixed;
+            left: -100%;
+            top: 0px;
+            max-width: 350px;
+            width: 100%;
+            min-height: 100vh;
+            background-color: #ffffff;
+            box-shadow: 4px 4px 24px 0 rgba(0, 0, 0, 0.08);
+            padding: 40px 0px;
+            z-index: 999;
+            display: block;
+            transition: all 0.5s ease-in-out;
+        }
+        header .mobile-menu.collapse.show{
+            left: 0;
+        }
+        .navbar-light .navbar-nav .nav-link {
+            font-size: 16px;
+            font-weight: 700;
+            color: #000;
+            opacity: 1;
+            margin: 0;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .navbar-light .navbar-nav .nav-item {
+            margin: 0;border-bottom: 1px solid #ddd;
+        }
+        header .navbar-light .navbar-nav .nav-link:hover:hover {
+            color: #2053d1;
+            display: block;
+        }
+        .services {
+            padding: 50px 0;
+        }
+    }
+    /*------------- 640px -----------------*/
+    
+    @media only screen and (max-width:640px) {
+        .services .house-demo {
+            max-width: 380px;
+            height: 380px;
+        }
+        .services .house-demo .house-layer {
+            max-width: 250px;
+            height: 250px;
+        }
+        .services .house-demo img {
+            max-width: 190px;
+            height: 190px;
+        }
+        .services .house-demo .house-layer3 {
+            width: 170px;
+            height: 170px;
+        }
+        .services .hot-water {
+            top: 40%;
+            left: -20px;
+        }
+        .services .appliances {
+            left: 67px;
+        }
+        .services .tank {
+            bottom: -4px;
+        }
+        .services .pool {
+            bottom: 97px;
+            right: -1px;
+        }
+        .services .hvac {
+            right: -17px;
+        }
+        .network-tab {
+            max-width: 100%;
+        }
+        .contact .h2-properties {
+            font-size: 27px;
+        }
+        .h2-properties {
+            font-size: 27px;
+        }
+        .banner .banner-content h1 {
+            font-size: 34px;
+        }
+        .navbar-light .navbar-toggler[aria-expanded="true"] .cross {
+            left: 186px;
+            top: -23px;
+        }
+        .meet-siphome .feature-card {
+            max-width: 70%;
+            margin: 0 auto 36px;
+            text-align: center;
+        }
+        .meet-siphome .feature-card .feature-img {
+            margin: 0 auto 30px;
+        }
+        .update {
+            padding: 40px 0;
+        }
+        .update .monitor-content {
+            border-radius: 0;
+        }
+        .owl-theme .owl-nav {
+            display: none;
+        }
+        .testimonial .slider-content {
+            max-width: 100%;
+            width: 100%;
+            margin: 40px 0;
+        }
+        .testimonial .user-img {
+            right: -34px;
+        }
+        .update .upgrade-images .upgrade-img3 {
+            position: static;
+            margin-top: 36px;
+            margin-bottom: 36px;
+            max-width: 100%;
+            width: 100%;
+        }
+        .update .upgrade-images .upgrade-img1 {
+            max-width: 100%;
+            width: 100%;
+        }
+        .update .upgrade-images .upgrade-img1 img {
+            width: 100%;
+        }
+        .update .upgrade-images .upgrade-img2 {
+            max-width: 100%;
+        }
+        .update .upgrade-images .upgrade-img2 img {
+            width: 100%;
+        }
+    }
+    
+    @media only screen and (max-width:400px) {
+        .meet-siphome .hot-water {
+            right: calc(50% - 156px);
+            top: 50px;
+        }
+        .banner .banner-content h1 {
+            font-size: 31px;
+        }
+        .meet-siphome .home {
+            max-width: 140px;
+        }
+        .meet-siphome .leaking {
+            left: calc(50% - 150px);
+            top: 83px;
+        }
+        .meet-siphome .issues {
+            left: calc(50% - 126px);
+            bottom: 80px;
+        }
+        .meet-siphome .alert {
+            right: calc(50% - 140px);
+            bottom: -27px;
+        }
+        .banner .btn-properties {
+            padding: 14px;
+            max-width: 120px;
+        }
+    }
+    /*------------- 480px -----------------*/
+    
+    @media only screen and (max-width:480px) {
+        .update .upgrade-images .upgrade-img1 {
+            max-width: 100%;
+        }
+        .update .upgrade-images .upgrade-img1 img {
+            width: 100%;
+        }
+        .services .house-demo {
+            max-width: 299px;
+            height: 299px;
+        }
+        header .mobile-menu {
+            max-width: 60%;
+        }
+        .services .house-demo img {
+            max-width: 142px;
+            height: 153px;
+        }
+        .services .house-demo .house-layer {
+            max-width: 208px;
+            height: 208px;
+        }
+        .services .house-demo .house-layer3 {
+            width: 134px;
+            height: 134px;
+        }
+        .owl-theme .owl-nav {
+            display: none;
+        }
+        .testimonial .slider-content {
+            margin: 40px 0px 0;
+        }
+        .update .monitor-content {
+            padding: 50px 0;
+            border-radius: 0;
+        }
+        .update .monitor {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+        }
+        .update .monitor-icon {
+            margin: 0 auto 20px;
+        }
+        .testimonial .user-img {
+            max-width: 125px;
+            right: -34px;
+        }
+        .services .sewer-line {
+            top: 2px;
+            left: 30px;
+        }
+        .services .hot-water {
+            top: 30%;
+            left: -10px;
+        }
+        .services .appliances {
+            left: 29px;
+            bottom: 18px;
+        }
+        .services .dehumidifier {
+            top: 0;
+        }
+        .services .pool {
+            bottom: 61px;
+            right: -1px;
+        }
+        .services .sump-pump {
+            top: 39px;
+        }
+    }
+    /*------------- 320px -----------------*/
